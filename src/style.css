@@ -1,0 +1,32 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: url("./img/w1.jpg");
+    background-size: cover;
+    background-position: center ;
+}
+video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
